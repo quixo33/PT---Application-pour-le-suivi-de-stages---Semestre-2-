@@ -19,6 +19,9 @@ ob_start(); //tout ce qui est affiché, on le stock dans une variable qui est "c
 if($p === 'home'){
     require '../pages/home.php';
 }
+else{
+    require '../pages/404.php';
+}
 $content = ob_get_clean();
 
 //charge le template des pages
