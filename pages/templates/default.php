@@ -15,7 +15,7 @@
         <nav class="navbar navbar-inverse navbar-fixed-top">
             <div class="container">
                 <div class="navbar-header">
-                    <a class="navbar-brand" href="#">PT 2</a>
+                    <a class="navbar-brand" href="<?= app\App::getHome(); ?>">PT 2</a>
                 </div>
             </div>
         </nav>

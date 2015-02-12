@@ -39,4 +39,8 @@ class App {
         self::$title = $title;
     }
 
+    public static function getHome(){
+        return 'index.php?p=home';
+    }
+
 }

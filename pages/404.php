@@ -7,6 +7,6 @@
 
 <div class="row">
     <div class="col-md-12 text-center">
-        <a href="index.php?p=home" class="btn btn-success">Revenir à l'accueil</a>
+        <a href="<?= app\App::getHome(); ?>" class="btn btn-success">Revenir à l'accueil</a>
     </div>
 </div>
